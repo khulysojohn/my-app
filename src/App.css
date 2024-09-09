@@ -1,2 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "poppins" , sans-serif;
+    
+  
+}
 
+@media (max-width:1500px){
+#name {
+    font-size: 3rem;
+}
+#surname{
+    font-size: 3rem;
+}
+}
+
+@media (max-width:912px) {
+    #name{
+        font-size: 2rem;
+    }
+    #surname{
+        font-size: 2rem;
+    }
+    #img{
+        width: 90%;
+    }
+}
 
