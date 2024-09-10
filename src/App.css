@@ -11,24 +11,76 @@
   
 }
 
-@media (max-width:1500px){
+@media (max-width:1500px) {
+    #name {
+        font-size: 3.5rem;
+    }
+    #surname {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width:1190px) {
+    #img {
+        width: 40%;
+    }
+   
+}
+
+@media (max-width:1130px){
 #name {
     font-size: 3rem;
 }
 #surname{
     font-size: 3rem;
 }
+#img {
+    width: 60%;
+}
 }
 
+
 @media (max-width:912px) {
+    #home-container {
+        height: 100%;
+    }
     #name{
-        font-size: 2rem;
+        font-size: 2.2rem;
+        padding-top: 1rem;
     }
     #surname{
-        font-size: 2rem;
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
     #img{
         width: 90%;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:790px){
+    #name {
+        font-size: 2rem;
+    }
+    #surname {
+        font-size: 2rem;
+    }
+}
+@media (max-width:400px) {
+    #name {
+        font-size: 1.8rem;
+    }
+    #surname {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:350px){
+    #name {
+        font-size: 1.4rem;
+    }
+    #surname {
+        font-size: 1.4rem;
     }
 }
 

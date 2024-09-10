@@ -4,9 +4,9 @@ import {FaYoutube, FaFacebook} from 'react-icons/fa'
 
 const Home = () => {
   return(
-      <div className='w-full h-100% flex flex-col py-40 bg-[#8d450c] md:flex-row gap-2'>
+      <div  id='home-container' className='w-full h-screen flex flex-col pt-40 pb-32 bg-[#8d450c] md:flex-row gap-2'>
         
-         <div className='mx-4 px-8 justify-center'>
+         <div className='mx-4 px-8 mt-10 justify-center'>
           <p className='text-[#dde9e6] mx-auto text-xl'>Hello, and welcome to </p>
           <h1 id='name' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Fountain of fire</h1>
           <h2 id='surname' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Ministry</h2>
@@ -25,12 +25,8 @@ const Home = () => {
           </a>
           </div>
           </div>
-
-          
-          <img id='img' src={img} className='mx-4 px-8 justify-center'  width='60%' alt='home' />
-      
-
-          </div>
+          <img id='img' src={img} className=' px-8 mb-6'  max-width='70%' alt='home' />
+        </div>
       
      
 
