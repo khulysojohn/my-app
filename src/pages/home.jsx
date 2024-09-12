@@ -11,10 +11,10 @@ const Home = () => {
           <h1 id='name' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Fountain of fire</h1>
           <h2 id='surname' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Ministry</h2>
           <p className='text-[#bdc3d4] py-4 max-w-[700px]'>
-         We are glad you're here. whether you're exploring faith or
-          looking for a church to call home. we are excited to share 
-          the love o christ with you. Come as you are, and experince a community 
-         that lovwa pray , and grow together.
+            We are glad you're here. whether you're exploring faith or
+            looking for a church to call home. we are excited to share 
+            the love of christ with you. Come as you are, and experince a community 
+            that love to pray , and grow together.
           </p>
           <div className='flex flex-raw justify-center'>
           <a href='#' className='mx-4 '>

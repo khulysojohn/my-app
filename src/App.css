@@ -74,13 +74,16 @@
     #surname {
         font-size: 1.8rem;
     }
+    FaYoutube {
+        font-size: 50px;
+    }
 }
 @media (max-width:350px){
     #name {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     #surname {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 }
 
