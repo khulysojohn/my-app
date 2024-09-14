@@ -6,11 +6,11 @@ const Home = () => {
   return(
       <div  id='home-container' className='w-full h-screen flex flex-col pt-40 pb-32 bg-[#8d450c] md:flex-row gap-2'>
         
-         <div className='mx-4 px-8 mt-10 justify-center'>
-          <p className='text-[#dde9e6] mx-auto text-xl'>Hello, and welcome to </p>
-          <h1 id='name' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Fountain of fire</h1>
-          <h2 id='surname' className='text-2xl sm:text-7xl mx-auto font-bold text-[#ccd6b6]'>Ministry</h2>
-          <p className='text-[#bdc3d4] py-4 max-w-[700px]'>
+         <div className='mx-4 px-8 mt-10 text-orange-200 justify-center'>
+          <p className=' mx-auto text-xl'>Hello, and welcome to </p>
+          <h1 id='name' className='text-2xl sm:text-7xl mx-auto font-bold'>Fountain of fire</h1>
+          <h2 id='surname' className='text-2xl sm:text-7xl mx-auto font-bold'>Ministry</h2>
+          <p className='py-4 max-w-[700px]'>
             We are glad you're here. whether you're exploring faith or
             looking for a church to call home. we are excited to share 
             the love of christ with you. Come as you are, and experince a community 
