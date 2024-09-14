@@ -1,5 +1,5 @@
 import img from '../assets/home.jpg';
-import {FaYoutube, FaFacebook} from 'react-icons/fa'
+import {FaYoutube, FaFacebook, FaTiktok} from 'react-icons/fa'
 
 
 const Home = () => {
@@ -17,11 +17,14 @@ const Home = () => {
             that love to pray , and grow together.
           </p>
           <div className='flex flex-raw justify-center'>
-          <a href='#' className='mx-4 '>
+          <a href='https://web.facebook.com/FountainOfFireMinistrySA' className='mx-4 '>
             <FaFacebook  size={60} color='white'/>
           </a>
-          <a href='#' className='mx-4'>
+          <a href='https://youtube.com/@fountainoffireministrysa' className='mx-4'>
             <FaYoutube size={60} color='white' />
+          </a>
+          <a href='https://www.tiktok.com/@fountainministry' className='mx-4'>
+            <FaTiktok size={60} color='white' />
           </a>
           </div>
           </div>
