@@ -1,8 +1,43 @@
-# Getting Started with Create React App
+# Fountain of Fire Ministry - Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official website for **Fountain of Fire Ministry**. This platform is designed to keep you connected with our ministry's activities, services, and events. Our mission is to empower and uplift through spiritual growth and community outreach.
 
-## Available Scripts
+## About
+
+**Fountain of Fire Ministry** was founded in 2008 by **Pastor Munyai** with the vision to bring spiritual awakening and transformation to the community. Our church is rooted in the belief of God's power to heal, restore, and guide people through every aspect of life.
+
+We provide various services throughout the week aimed at fostering spiritual growth and fellowship:
+
+- **Wednesday (Midnight Service)** - 18:30
+- **Friday (Youth Service)** - 18:00
+- **Sunday (Main Service)** - 10:30
+- **Monday (Week-start Prayer)**
+
+## Features
+
+This website offers several features to help visitors and members:
+
+- **Service Information**: Get details on the schedule of our weekly services.
+- **Event Updates**: Stay informed about upcoming church events and gatherings.
+- **Pastor’s Messages**: Read uplifting and insightful messages from Pastor Munyai.
+- **Contact Information**: Easily get in touch with us for prayer requests, inquiries, or other matters.
+
+## Tech Stack
+
+This website is built using modern web technologies for a seamless and responsive experience:
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Framework**: [React.js](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Hosting**: [Netlify](https://www.netlify.com/)
+
+## Setup Instructions
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/fountain-of-fire-ministry.git
+
 
 In the project directory, you can run:
 
