@@ -13,7 +13,7 @@ const Services = () => {
             </div>
 
             <div className="container-2 pb-8">
-                <h2 className="text-2xl text-center">Wednesday: Midnight Service</h2>
+                <h2 className="text-2xl text-center">Wednesday: Midweek Service</h2>
                 <p className="text-2xl text-center">Time: 18:30</p>
                 <p className="text-center">
                     Join us for a powerful time of prayer and worship every Wednesday evening as
