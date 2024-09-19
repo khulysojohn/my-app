@@ -46,11 +46,11 @@ const Media = () => {
   };
 
   return (
-    <div className="media-page w-full h-screen py-32 bg-[#8d450c] ">
+    <div className="media-page w-100% h-100% pt-32 pb-20 bg-[#8d450c] flex flex-col md:flex-row gap-4 w-screen justify-between items-center">
 
-      <div className="content-container flex flex-col md:flex-row gap-4  justify-center items-center">
+      
         {/* Slideshow Section */}
-        <div className="gallery-section mx-4 w-50%text-center">
+        <div className="gallery-section px-8  text-orange-200 justify-center text-center">
           <h2 className="font-bold text-orange-200 mb-4">Recent Gallery</h2>
           <img
             src={pictures[currentPicIndex]}
@@ -60,15 +60,11 @@ const Media = () => {
         </div>
 
         {/* Video Embed Section */}
-        <div className="video-embed-container text-center">
+        <div className="video-embed   px-4 pt-11 text-center">
           <h2 className='font-bold text-orange-200 mb-4'>Rencent videos</h2>
           {/* Video Player with Navigation Arrows */}
           <div className="video-controls">
-            <button onClick={handlePreviousVideo} className="arrow-btn">
-              &lt; {/* Left Arrow */}
-            </button>
-
-            <div className="video-container inline-block">
+            
               <iframe
               
                 src={videos[currentVideoIndex].url}
@@ -78,7 +74,10 @@ const Media = () => {
                 title={videos[currentVideoIndex].title}
               ></iframe>
             </div>
-
+            
+            <button onClick={handlePreviousVideo} className="arrow-btn">
+              &lt; {/* Left Arrow */}
+            </button>
             <button onClick={handleNextVideo} className="arrow-btn">
               &gt; {/* Right Arrow */}
             </button>
@@ -86,9 +85,9 @@ const Media = () => {
 
           
           
-        </div>
+        
       </div>
-    </div>
+    
   );
 };
 
