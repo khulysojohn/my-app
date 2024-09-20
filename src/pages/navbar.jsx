@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
 
     
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#cea548] text-black'>
+    <div className='navbar fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#cea548] text-black'>
        
        {/*logo*/}
       <img src={logo} alt='logo' height={65} width={65} /> 

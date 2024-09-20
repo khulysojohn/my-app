@@ -10,7 +10,9 @@
     
   
 }
-
+.navbar {
+    z-index: 100;
+}
 
 
 @media (max-width:1500px) {
@@ -42,7 +44,7 @@
 }
 
   .media-page {
-
+    z-index: 1;
     object-fit: cover; /* Ensures the image and video fill the container while maintaining aspect ratio */
   }
 
