@@ -23,14 +23,14 @@ const Media = () => {
   useEffect(() => {
     ScrollReveal().reveal('.gallery-section', {
       distance: '100px',
-      origin: 'left', // Reveal from the left for the gallery
+      origin: 'left', 
       duration: 2000,
       reset: true,
     });
 
     ScrollReveal().reveal('.video-embed', {
       distance: '100px',
-      origin: 'right', // Reveal from the right for the video
+      origin: 'right',
       duration: 2000,
       reset: true,
     });
@@ -64,7 +64,6 @@ const Media = () => {
   return (
     <div className="media-page w-100% h-100% pt-32 pb-20 bg-[#8d450c] flex flex-col md:flex-row gap-4 w-screen justify-between items-center">
 
-      {/* Slideshow Section */}
       <div className="gallery-section px-8 text-orange-200 justify-center text-center">
         <h2 className="font-bold text-orange-200 mb-4">Recent Gallery</h2>
         <img
@@ -74,25 +73,25 @@ const Media = () => {
         />
       </div>
 
-      {/* Video Embed Section */}
+    
       <div className="video-embed px-4 pt-11 text-center">
         <h2 className='font-bold text-orange-200 mb-4'>Recent videos</h2>
-        {/* Video Player with Navigation Arrows */}
+      
         <div className="video-controls">
           <iframe
             src={videos[currentVideoIndex].url}
             className="media-item"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            
             allowFullScreen
             title={videos[currentVideoIndex].title}
           ></iframe>
         </div>
 
         <button onClick={handlePreviousVideo} className="arrow-btn">
-          &lt; {/* Left Arrow */}
+          &lt; 
         </button>
         <button onClick={handleNextVideo} className="arrow-btn">
-          &gt; {/* Right Arrow */}
+          &gt;
         </button>
       </div>
     </div>

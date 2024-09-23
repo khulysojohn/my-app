@@ -13,8 +13,38 @@
 .navbar {
     z-index: 100;
 }
-
-
+.media-page {
+    z-index: 1;
+    object-fit: cover; 
+  }
+.gallery-section {
+    width: 50%;
+}
+.sliding-image {
+    transition: opacity 0.5s ease-in-out;
+    width: 90%;
+}
+.video-embed {
+    width: 50%;
+}
+.video-controls {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btn {
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  .media-item {
+    width: 45vw;
+    height: 400px;
+  }
+  
+  
 @media (max-width:1500px) {
     #name {
         font-size: 3.5rem;
@@ -28,63 +58,19 @@
     #img {
         width: 40%;
     }
-   
 }
 
 @media (max-width:1130px){
-#name {
+    #name {
     font-size: 3rem;
-}
-#surname{
+    }
+    #surname{
     font-size: 3rem;
-}
-#img {
+    }
+    #img {
     width: 60%;
+    }
 }
-}
-
-  .media-page {
-    z-index: 1;
-    object-fit: cover; /* Ensures the image and video fill the container while maintaining aspect ratio */
-  }
-
-  .gallery-section {
-    width: 50%;
-    
-  }
-
-  .sliding-image {
-    transition: opacity 0.5s ease-in-out;
-    width: 90%;
-
-  }
-  .video-embed {
-    width: 50%;
-  }
-  
-  .video-controls {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .arrow-btn {
-
-    color: white;
-    padding: 10px;
-    font-size: 24px;
-    border: none;
-    cursor: pointer;
-  }
-  .media-item {
-    width: 45vw;
-    height: 400px;
-  }
-  
-  
- 
-  
 
 @media (max-width:912px) {
     #home-container {
