@@ -44,7 +44,9 @@
     height: 400px;
   }
   
-  
+  textarea{
+    resize: none;
+  }
 @media (max-width:1500px) {
     #name {
         font-size: 3.5rem;

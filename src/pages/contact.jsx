@@ -40,7 +40,7 @@ const Contact = () => {
           />
           <input
             type='submit'
-            value="Collaborate"
+            value="Get in touch"
             className='text-gray-700 border-2 bg-[#cea548] hover:text-black px-4 py-3 my-8 mx-auto flex'
           />
         </form>
