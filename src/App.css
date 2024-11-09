@@ -23,6 +23,7 @@
 .sliding-image {
     transition: opacity 0.5s ease-in-out;
     width: 90%;
+    
 }
 .video-embed {
     width: 50%;
@@ -40,8 +41,9 @@
     cursor: pointer;
   }
   .media-item {
-    width: 45vw;
-    height: 400px;
+    width: auto;
+    height: 800px;
+    border-radius: 10px;
   }
   
   textarea{
@@ -104,13 +106,17 @@
     }
     .sliding-image {
         width:100vw;
+
     }
+    
 
     .video-embed {
         width: 100%;
     }
     .media-item {
-        width: 100%;
+        width: auto;
+        height: 60%;
+        border-radius: 5px;
     }
 }
 @media (max-width:400px) {
