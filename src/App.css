@@ -20,14 +20,10 @@
 .gallery-section {
     width: 50%;
 }
-.sliding-image {
-    transition: opacity 0.5s ease-in-out;
-    width: 90%;
-    
+iframe{
+    width: 100%;
 }
-.video-embed {
-    width: 50%;
-}
+
 .video-controls {
     display: block;
     justify-content: center;
@@ -41,8 +37,7 @@
     cursor: pointer;
   }
   .media-item {
-    width: auto;
-    height: 800px;
+    height: 400px;
     border-radius: 10px;
   }
   
@@ -108,11 +103,7 @@
         width:100vw;
 
     }
-    
-
-    .video-embed {
-        width: 100%;
-    }
+   
     .media-item {
         width: auto;
         height: 60%;

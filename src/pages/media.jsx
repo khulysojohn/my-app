@@ -74,10 +74,10 @@ const Media = () => {
       </div>
 
     
-      <div className="video-embed px-4 pt-11 text-center">
+      <div className="gallery-section px-8 pt-11 justify=center text-center">
         <h2 className='font-bold text-orange-200 mb-4'>Recent videos</h2>
       
-        <div className="video-controls">
+          <div>
           <iframe
             src={videos[currentVideoIndex].url}
             className="media-item"
@@ -85,16 +85,17 @@ const Media = () => {
             allowFullScreen
             title={videos[currentVideoIndex].title}
           ></iframe>
-        </div>
-
-        <button onClick={handlePreviousVideo} className="arrow-btn">
+          </div>
+          
+          <button onClick={handlePreviousVideo} className="arrow-btn">
           &lt; 
         </button>
         <button onClick={handleNextVideo} className="arrow-btn">
           &gt;
         </button>
-      </div>
+        </div>
     </div>
+    
   );
 };
 
