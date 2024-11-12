@@ -64,7 +64,7 @@ const Media = () => {
   return (
     <div className="media-page w-100% h-100vh pt-32 pb-20 bg-[#8d450c] flex flex-col md:flex-row gap-4 w-screen justify-between items-center">
 
-      <div className="gallery-section px-8 text-orange-200 justify-center text-center">
+      <div className="gallery-section px-8 justify-center text-center">
         <h2 className="font-bold text-orange-200 mb-4">Recent Gallery</h2>
         <img
           src={pictures[currentPicIndex]}
@@ -74,10 +74,10 @@ const Media = () => {
       </div>
 
     
-      <div className="gallery-section px-8 pt-11 justify=center text-center">
+      <div className="gallery-section px-8 pt-11 justify-center text-center">
         <h2 className='font-bold text-orange-200 mb-4'>Recent videos</h2>
       
-          <div>
+          <div className="w-full md:w-auto">
           <iframe
             src={videos[currentVideoIndex].url}
             className="media-item"
