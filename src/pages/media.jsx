@@ -77,10 +77,9 @@ const Media = () => {
       <div className="gallery-section px-8 pt-11 justify-center text-center">
         <h2 className='font-bold text-orange-200 mb-4'>Recent videos</h2>
       
-          <div className="w-full md:w-auto">
+          <div className="media-item w-full md:w-auto">
           <iframe
             src={videos[currentVideoIndex].url}
-            className="media-item w-200pxde h-full"
             allowFullScreen
             title={videos[currentVideoIndex].title}
           ></iframe>
