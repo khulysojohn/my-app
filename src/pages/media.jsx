@@ -80,8 +80,7 @@ const Media = () => {
           <div className="w-full md:w-auto">
           <iframe
             src={videos[currentVideoIndex].url}
-            className="media-item"
-            
+            className="media-item w-200pxde h-full"
             allowFullScreen
             title={videos[currentVideoIndex].title}
           ></iframe>
