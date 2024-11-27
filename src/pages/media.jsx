@@ -40,7 +40,7 @@ const Media = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentPicIndex((prevIndex) => (prevIndex + 1) % pictures.length);
-    }, 3000); // Slide every 3 seconds
+    }, 5000); // Slide every 3 seconds
 
     return () => clearInterval(interval);
   }, [pictures]);
@@ -64,15 +64,15 @@ const Media = () => {
   const videos = [
     {
       title: 'Video 1',
-      url: 'https://www.youtube.com/embed/SuWpBuVHqQo?si=Y4DWL9lY8XMFiHSH&amp',
+      url: 'https://khulyso-john.sirv.com/Fountain/videos/video6.mp4',
     },
     {
       title: 'Video 2',
-      url: 'https://www.youtube.com/embed/_W-Cpa5EhUw?si=Dr6kW-pqTtmAe65y&amp',
+      url: 'https://khulyso-john.sirv.com/Fountain/videos/video5.mp4',
     },
     {
       title: 'Video 3',
-      url: 'https://www.youtube.com/embed/_sHkEVBxBMA?si=likKVje7FqufpUSJ',
+      url: 'https://khulyso-john.sirv.com/Fountain/videos/video3.mp4',
     },
   ];
 
@@ -102,11 +102,11 @@ const Media = () => {
       <div className="gallery-section px-8 pt-11 justify-center text-center">
         <h2 className="font-bold text-orange-200 mb-4">Recent videos</h2>
         <div className="media-item w-full md:w-auto">
-          <iframe
+          <video
             src={videos[currentVideoIndex].url}
             allowFullScreen
             title={videos[currentVideoIndex].title}
-          ></iframe>
+          ></video>
         </div>
         <button onClick={handlePreviousVideo} className="arrow-btn">
           &lt;
