@@ -102,11 +102,18 @@ const Media = () => {
       <div className="gallery-section px-8 pt-11 justify-center text-center">
         <h2 className="font-bold text-orange-200 mb-4">Recent videos</h2>
         <div className="media-item w-full md:w-auto">
-          <video
-            src={videos[currentVideoIndex].url}
-            allowFullScreen
-            title={videos[currentVideoIndex].title}
-          ></video>
+        <a
+      href={`https://www.youtube.com/watch?v=${videos[currentVideoIndex].youtubeId}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src={`https://img.youtube.com/vi/${videos[currentVideoIndex].youtubeId}/hqdefault.jpg`}
+        alt={videos[currentVideoIndex].title}
+        title={videos[currentVideoIndex].title}
+        className="w-full" // optional class for styling
+      />
+    </a>
         </div>
         <button onClick={handlePreviousVideo} className="arrow-btn">
           &lt;
